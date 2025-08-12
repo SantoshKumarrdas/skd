@@ -1,0 +1,47 @@
+/* Student Dashboard container */
+.student-dashboard {
+  background: #ffffff;
+  max-width: 500px;
+  height:28vh;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title */
+.student-dashboard h2 {
+  font-size: 26px;
+  color: #2d3e50;
+  margin-bottom: 15px;
+}
+
+/* Info text */
+.student-dashboard p {
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+/* Start Exam button */
+.start-exam-btn {
+  background: #222222;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.start-exam-btn:hover {
+  background: #3d5874;
+  transform: scale(1.05);
+}
+
+.start-exam-btn:active {
+  transform: scale(0.97);
+}

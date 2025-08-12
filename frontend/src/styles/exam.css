@@ -1,0 +1,85 @@
+/* Exam Page container */
+.exam-page {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.exam-page h2 {
+  font-size: 28px;
+  text-align: center;
+  color: #2d3e50;
+  margin-bottom: 10px;
+}
+
+/* Timer */
+.timer {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #d63031;
+}
+
+/* Question Card */
+.question-card {
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  transition: box-shadow 0.3s;
+}
+
+.question-card:hover {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Question Text */
+.question-text {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Options */
+.option {
+  margin: 8px 0;
+}
+
+.option label {
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+}
+
+.option input[type="radio"] {
+  margin-right: 8px;
+  transform: scale(1.2);
+}
+
+/* Submit Button */
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: #222222;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.submit-btn:hover {
+  background: #6b1e2b;
+  
+}
+
+.submit-btn:active {
+  transform: scale(0.97);
+}
